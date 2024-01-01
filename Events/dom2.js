@@ -16,5 +16,22 @@ newH.textContent = 'I\'m a blue h3!';
 newH.style.color = 'blue';
 container.appendChild(newH);
 
+// Creating a new div
 
+const newRectangle = document.createElement('div');
+newRectangle.style.backgroundColor = 'pink';
+newRectangle.style.borderStyle = 'solid';
+
+const newH1 = document.createElement('h1');
+newH1.textContent = 'I\'m in a div!';
+
+const anotherP = document.createElement('p');
+anotherP.textContent = 'ME TOO!';
+
+newRectangle.appendChild(newH1);
+newRectangle.appendChild(anotherP);
+
+// Appending the div inside the main container
+
+container.appendChild(newRectangle);
 
