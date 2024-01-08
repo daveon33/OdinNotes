@@ -36,7 +36,7 @@
       const newItem = document.querySelector('input');
       const addButton = document.querySelector('button');
 
-      newItem.value = '';
+      
 
       addButton.addEventListener('click', () => {
         const itemText = newItem.value;
@@ -46,13 +46,17 @@
         const deleteButton = document.createElement('button');
 
         newListItem.appendChild(newSpan);
-        newListItem.appendChild(button);
+        newListItem.appendChild(deleteButton);
 
         newSpan.textContent = itemText;
         deleteButton.textContent = 'Delete';
 
         foodList.appendChild(newListItem);
+
+        newItem.value = '';
       });
+
+      
 
       
 
