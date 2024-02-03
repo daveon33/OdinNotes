@@ -31,3 +31,19 @@ function isEmpty(obj) {
 }
 
 console.log(isEmpty(user));
+
+// Sum object properties
+
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+
+let totalSalaries = 0;
+
+for(let employee in salaries) {
+  totalSalaries += salaries[employee];
+}
+
+console.log(totalSalaries);
