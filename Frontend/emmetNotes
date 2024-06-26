@@ -1,0 +1,26 @@
+Emmet is a toolkit that allows the user to use shortcuts to create html and css code without the need to explicitly write down each of the tags needed.
+
+Abbreviation syntax
+
+While using Emmet the abbreviation will be the common language of use to work out the code that we need, it's similar to css selectors for describing elements positions.
+
+---
+
+Any word can be translated into a tag.
+
+Nesting operators
+
+With these we position abbreviation elements inside generated tree.
+
+With > the elements will be inside each other for example div > p
+
+<div>
+  <p></p>
+</div>
+
+With the + the elements will be near each other on the same level, for example p + p + h1
+
+<p></p>
+<p></p>
+<h1></h1>
+
