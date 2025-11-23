@@ -24,3 +24,25 @@ With the + the elements will be near each other on the same level, for example p
 <p></p>
 <h1></h1>
 
+the wrap with abbreviation
+
+If we already have content and want add more structure to it, using wrap this content will be placed inside the last element on the wrapper
+
+For example:
+
+Original HTML
+
+<div id="top">
+  <p>Hello</p>
+</div>
+
+After using Wrapper with this abreviation .rel>h1{Hola}+div.nuevo
+
+<div class="rel">
+  <h1>Hola</h1>
+  <div class="nuevo">
+    <div id="top">
+      <p>Hello</p>
+    </div>
+  </div>
+</div>
