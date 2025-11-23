@@ -10,13 +10,15 @@
   <div class="content">
     <h1 id="title"></h1>
   </div>
-  <ol class="newList">
-    <li class="numbers">1</li>
-    <li class="numbers">2</li>
-    <li class="numbers">3</li>
-    <li class="numbers">4</li>
-    <li class="numbers">5</li>
-  </ol>
+  <div class="newDiv">
+    <ol class="newList">
+      <li class="numbers">1</li>
+      <li class="numbers">2</li>
+      <li class="numbers">3</li>
+      <li class="numbers">4</li>
+      <li class="numbers">5</li>
+    </ol>
+  </div>
   
 </body>
 </html>
